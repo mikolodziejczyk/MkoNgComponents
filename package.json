@@ -7,7 +7,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "publish": "cd dist\\mko-ng-components && npm pack && move mko-ng-components-*.tgz  \\\\GL-DEV-02\\NpmRegistry\\mko-ng-components"
   },
   "private": true,
   "dependencies": {
