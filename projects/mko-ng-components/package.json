@@ -1,8 +1,9 @@
 {
   "name": "mko-ng-components",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "peerDependencies": {
     "@angular/common": "^8.2.0",
-    "@angular/core": "^8.2.0"
+    "@angular/core": "^8.2.0",
+    "popper.js": "^1.15.0"
   }
 }
