@@ -1,6 +1,5 @@
-/// <reference path="../../../../../../node_modules/popper.js/index.d.ts" />
 import { Component, OnInit, ElementRef, ViewChild, Input, OnDestroy, AfterViewInit, forwardRef } from '@angular/core';
-import Popper from 'popper.js/dist/popper';
+import Popper from 'popper.js';
 import { NgForm, ControlValueAccessor, NG_VALUE_ACCESSOR } from '@angular/forms';
 import { Subscription } from 'rxjs';
 
