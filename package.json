@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "publish": "cd dist\\mko-ng-components && npm pack && move mko-ng-components-*.tgz  \\\\GL-DEV-02\\NpmRegistry\\mko-ng-components"
+    "publish": "cd dist\\mko-ng-components && ng build --configuration production && npm publish --registry http://verdaccio:4873/"
   },
   "private": true,
   "dependencies": {
