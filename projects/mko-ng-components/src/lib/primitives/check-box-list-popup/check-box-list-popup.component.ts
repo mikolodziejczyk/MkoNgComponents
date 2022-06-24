@@ -24,8 +24,8 @@ export class CheckBoxListPopupComponent implements OnInit, OnDestroy, AfterViewI
   isVisible: boolean = false;
 
   // column selector
-  @ViewChild('popup', { static: false }) private popup: ElementRef;
-  @ViewChild('myControl', { static: false }) myControl: NgForm;
+  @ViewChild('popup') private popup: ElementRef;
+  @ViewChild('myControl') myControl: NgForm;
 
 
   @Input() labels: string[];

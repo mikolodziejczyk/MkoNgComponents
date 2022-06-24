@@ -15,7 +15,12 @@
             "tsConfig": "projects/mko-ng-components/tsconfig.lib.json",
             "project": "projects/mko-ng-components/ng-package.json"
           }
-        },
+        ,          "configurations": {
+            "production": {
+              "tsConfig": "projects/mko-ng-components/tsconfig.lib.prod.json"
+            }
+          }
+},
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
